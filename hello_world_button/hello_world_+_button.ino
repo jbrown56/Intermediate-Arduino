@@ -1,7 +1,7 @@
 
 #include <Wire.h>
-#include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd(0x3F,2,1,0,4,5,6,7);
+#include <LiquidCrystal.h>
+LiquidCrystal lcd(0x3F,2,1,0,4,5,6,7);
 // sometimes 0x27 works when 0x3F doesn't
 // that's the I2C address of the backpack 
 int buttonpin = 4;
