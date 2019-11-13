@@ -1,19 +1,19 @@
 //LED Blink.ino
 
 int led = 13;
-int brightness = 0;
-int fadeAmount = 5;
+int brightness = 0;//variable controlling how bright th led is
+int fadeAmount = 5;//interval te brightness is increasing by
 void setup() {
-  // put your setup code here, to run once:
+ 
   pinMode(led, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-   analogWrite(led, brightness);
-   brightness = brightness + fadeAmount;
+  
+   analogWrite(led, brightness);//led with be whatever the brightness variable is
+   brightness = brightness + fadeAmount;//brightness increases by 5 every time
    if (brightness == 0 or brightness == 225){
-   	fadeAmount = -fadeAmount; 
+   	fadeAmount = -fadeAmount; //this keeps the brightness variable in between 0 and 255, so if it reaches 255 it starts subtracting 5 instead of adding
    }      
    delay(50);       
 }
