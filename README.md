@@ -1,4 +1,4 @@
-#intermediate arduino,
+# Intermediate Aruino
  My Intermediate Arduino Assignments 
 
 hello world button: expansion of lcd backpack using a button LcD Backpack: uses backpack to do
