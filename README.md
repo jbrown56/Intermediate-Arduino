@@ -31,6 +31,8 @@ Description:In this assignment I learned how to use an LCD backpack which drasti
 
 Lessons Learned: Make sure that the library for LCD is downloaded and in the correct folder because you may get errors if not. Also remember that variables are really helpful and so is using basic if statements. 
 
+![alt text](https://github.com/jbrown56/Intermediate-Arduino/blob/master/LCD_backpack/LCD_backpack_fritzing.png)
+
 ## Photointerruptors
 Included Files: [More info on attach interrupts](https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/)
 
@@ -40,6 +42,8 @@ Description:In this assignment I used an attach interrupt function with a photoi
 
 Lessons Learned: Just because the light on the photointerrupter is going on doesn’t mean its working and you can very easily short out photointerrupters if their wires touch so make sure to put take in between them and used a serial monitor to check if their still working. 
 
+![alt text](https://github.com/jbrown56/Intermediate-Arduino/blob/master/photo_interruptor/Photo_fritzing.png)
+
 ## Potentiometers
 Included Files: [More info on potentiometers](https://www.arduino.cc/en/tutorial/potentiometer)
 
@@ -48,6 +52,8 @@ Included Files: [More info on potentiometers](https://www.arduino.cc/en/tutorial
 Description:For this assignment the focus was learning how to use a potentiometer. I had to wire it with an LCD screen and LED so that when the dial was turned the screen read a numerical value representing how bright it was and the LED brightened accordingly.
 
 Lessons Learned:Potentiometers values range from 0 to 1000ish, whereas leds values go from 0 to 255 so you have to convert the value from the potentiometer to a value in the range of the led. 
+
+![alt text](https://github.com/jbrown56/Intermediate-Arduino/blob/master/Potentiometer/Potentiometer_fritzing.png)
 
 ## Motor Control
 Included Files: [More information on transistors](https://www.arduino.cc/en/Tutorial/TransistorMotorControl)
@@ -60,6 +66,6 @@ Description::In this assignment I powered a motor thats speed was controlled wit
 
 Lessons Learned:  I learned that if you have the transistor in the wrong direction it can cause big problems and short out your motor or other parts of your board, the correct way to put it is so that if the flat side is facing away from you the right goes to ground and the left goes to five volts. 
 
-
+![alt text](https://github.com/jbrown56/Intermediate-Arduino/blob/master/motot_control/Motor_fritzing.png)
 
 
