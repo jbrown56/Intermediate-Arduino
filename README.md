@@ -6,6 +6,7 @@ Included Files: [More information on analog write](https://www.arduino.cc/refere
 Description:In this assignment I had to wire up and LED and use an analog output instead of digital write to get the LED to fade. 
 
 Lessons Learned: In this lesson I struggled with how to make the variable start counting down when you reached the maximum (255). I got help from another student who showed me that you can use an if statement so that when you reach the maximum the variable changes so you start counting down. 
+
 ![alt text](https://github.com/jbrown56/Intermediate-Arduino/blob/master/Led_Blink_revisited/LED_Blink_Revisited_fritzing.PNG)
 ## Hello LCD
 Included Files: [LCD wiring directions](https://learn.adafruit.com/character-lcds/wiring-a-character-lcd)
