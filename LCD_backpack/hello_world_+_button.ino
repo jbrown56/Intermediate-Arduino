@@ -24,16 +24,16 @@ void loop(){
 	lcd.setCursor(0,1);
 	buttonstate = digitalRead(buttonpin);
 	switchstate = digitalRead(switchpin);
-	if (switchstate == HIGH ){
+	if (switchstate == HIGH ){//if switch is high then counting up
 		delay(10);
 		a = 1; 
 		
 	}
-	else{
+	else{//if switch is low then counting down
 		a = -1;
 	}
 	if ( buttonstate == HIGH and paststate == 0){
- n = n + a;
+ n = n + a;//variable counting times button is pressed
  lcd.print(n);
  lcd.print("         ");
 	}
