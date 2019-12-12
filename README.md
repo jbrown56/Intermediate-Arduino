@@ -49,11 +49,13 @@ Lessons Learned: Just because the light on the photointerrupter is going on does
 ## Potentiometers
 Included Files: [More info on potentiometers](https://www.arduino.cc/en/tutorial/potentiometer)
 
+[More info on Map](https://www.arduino.cc/reference/en/language/functions/math/map/)
+
 [Potentiometer Code](https://github.com/jbrown56/Intermediate-Arduino/blob/master/Potentiometer/Potentiometer.ino)
 
 Description: For this assignment the focus was learning how to use a potentiometer. I had to wire it with an LCD screen and LED so that when the dial was turned the screen read a numerical value representing how bright it was and the LED brightened accordingly.
 
-Lessons Learned: Potentiometer values range from 0 to 1000ish, whereas led values go from 0 to 255 so you have to convert the value from the potentiometer to a value in the range of the led. 
+Lessons Learned: Potentiometer values range from 0 to 1023, whereas led values go from 0 to 255 so you have to convert the value from the potentiometer to a value in the range of the led. To do this conversion a map function could be helpful. 
 
 ![alt text](https://github.com/jbrown56/Intermediate-Arduino/blob/master/Potentiometer/Potentiometer_fritzing.png)
 
