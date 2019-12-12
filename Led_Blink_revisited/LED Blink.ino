@@ -1,4 +1,6 @@
 //LED Blink.ino
+//Justine Brown
+//description: wiring an led with analog output so that the led will fade
 
 int led = 13;
 int brightness = 0;//variable controlling how bright th led is
