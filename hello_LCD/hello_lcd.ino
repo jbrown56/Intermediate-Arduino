@@ -1,4 +1,6 @@
 // hello LCD
+//Justine Brown
+//LCD screen without backpack so that screen reads hello world and the number of seconds since the program started
 
 #include <LiquidCrystal.h>//lcd library need whenever using lcd
 
