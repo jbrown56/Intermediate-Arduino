@@ -1,3 +1,6 @@
+//Photointerruptor
+//Justine Brown
+//use an attach innterrupt function to tunr on led when photinterruptor is interrupted
 int photopin = 2;
 int ledpin = 5;
 int photostate;
