@@ -39,7 +39,7 @@ Included Files:
 In this assignment I learned how to use an [LCD backpack](https://learn.adafruit.com/i2c-spi-lcd-backpack/arduino-i2c-use) which drastically decreases the number of wires necessary for an LCD screen. I then wired my board to include a button that was counted every time it was pressed, and a switch which determined which direction (up or down) it was counting. The LCD screen then read that variable (ie. number of times the button was pressed). 
 
 ### Wiring Diagram:
-![alt text](https://github.com/jbrown56/Intermediate-Arduino/blob/master/LCD_backpack/LCD_backpack_fritzing.png)
+![alt text](https://github.com/jbrown56/Intermediate-Arduino/blob/master/LCD_backpack/lcd_backpack_new%20(1).png)
 
 ### Lessons Learned:
 Make sure that the library for LCD is downloaded and in the correct folder because you may get errors if not. Also remember that variables are really helpful and so is using basic if statements. 
@@ -52,7 +52,7 @@ Included Files:
 In this assignment I used an [attach interrupt](https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/) function with a photointerrupter. When something was in between the photointerrupter, it would turn an LED on, when there was nothing the LED would stay off. The interrupt function was used because a loop would be too slow and I needed to be able to detect even very quick interrupts.
 
 ### Wiring Diagram:
-![alt text](https://github.com/jbrown56/Intermediate-Arduino/blob/master/photo_interruptor/Photo_fritzing.png)
+![alt text](https://github.com/jbrown56/Intermediate-Arduino/blob/master/photo_interruptor/Photo_fritzing_new.png)
 
 ### Lessons Learned: 
 Just because the light on the photointerrupter is going on doesn’t mean its working and you can very easily short out photointerrupters if their wires touch so make sure to put tape inbetween them and used a serial monitor to check if their still working. 
@@ -81,8 +81,6 @@ In this assignment I powered a motor thats speed was controlled with a potentiom
 
 ###
 ![alt text](https://github.com/jbrown56/Intermediate-Arduino/blob/master/motot_control/Motor_fritzing.png)
-
-[Source for fritzing](http://wiki.chssigma.com/index.php?title=File:Motor_Control_Fritzing.png)
 
 ### Lessons Learned:
 I learned that if you have the transistor in the wrong direction it can cause big problems and short out your motor or other parts of your board, the correct way to put it is so that if the flat side is facing away from you the right goes to ground and the left goes to five volts. 
