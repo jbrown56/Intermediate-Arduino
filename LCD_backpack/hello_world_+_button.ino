@@ -1,3 +1,6 @@
+//LCD backpack
+//Justine Brown
+// LcD creen reads the number of time btton was pressed, switch determines if it is counting up or down
 
 #include <Wire.h>
 #include <LiquidCrystal.h>

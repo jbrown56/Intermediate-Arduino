@@ -1,3 +1,7 @@
+//Motor Control
+//Justine Brown
+//Description: control a motor's speed with a potentiometer
+
 int motorpin = 9;
 int potpin = 2;
 int potvalue;
